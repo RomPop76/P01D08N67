@@ -16,7 +16,8 @@ html {
 /* Nawigacja */
 
 nav {
-    margin: 30px 0;
+    max-width: 1440px;
+    margin: 30px auto;
     text-align: right;
 }
 
@@ -31,8 +32,25 @@ nav a {
     margin: 0 20px;
 }
 
+nav a.reservation {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+    transition: .2s;
+}
+
 nav a:hover {
     border-bottom: 2px solid #555;
+    color: black;
+}
+
+nav a.reservation:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
 }
 
 /* Header */
@@ -49,4 +67,17 @@ header h1 {
     text-align: center;
     line-height: 40vh;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Stopka */
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
 }

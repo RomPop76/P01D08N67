@@ -69,6 +69,20 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Main */
+
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+}
+
+main p.description {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+}
+
 /* Stopka */
 
 footer {

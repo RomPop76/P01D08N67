@@ -74,6 +74,7 @@ header h1 {
 main {
     max-width: 1440px;
     margin: 5vh auto;
+    font-size: 0;
 }
 
 main p.description {
@@ -81,6 +82,27 @@ main p.description {
     text-align: center;
     margin: 0 30px 50px 30px;
     line-height: 180%;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.33%;
+}
+
+main div.image {
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px 30px;
+}
+
+main div.image:hover {
+    background-color: aqua;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
 }
 
 /* Stopka */
